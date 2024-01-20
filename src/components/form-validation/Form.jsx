@@ -13,7 +13,8 @@ const Form = () => {
       email: e.target[1].value ,
       password: e.target[2].value ,
     }
-    const isValid = await validateSchema  
+    const isValid = await validateSchema.isValid(formData)
+    console.log(isValid); 
   }
 
   return (
