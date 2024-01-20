@@ -1,0 +1,43 @@
+.first-form-h2{
+    color: rgb(160, 167, 199);
+    background-color: rgb(38, 102, 142);    
+}
+.form-main-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(38, 102, 142);
+   
+    .form-div{
+        display: flex;
+        width: 350px;
+        height: 300px;
+        background-color: rgb(28, 77, 110);
+        border-radius: 5px;
+        padding-top: 30px;
+
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    input{
+        margin: 2%;
+        outline: none;
+        border: none;
+        height: 45px;
+        width: 70%;
+        border-radius: 5px;
+        padding-left: 10px;
+        color: white;
+        background-color: rgb(28, 113, 156);
+    }
+    input::placeholder{
+        color: rgb(200, 200, 208);
+    }
+}
