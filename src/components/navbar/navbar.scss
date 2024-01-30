@@ -1,0 +1,33 @@
+.nav-div{
+    padding: 5px;
+    font-size: medium;
+    background-color: rgb(235, 232, 232);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 10px;
+    
+
+    ul{
+        padding: 0;
+        display: flex;
+        list-style: none;
+        
+        
+        li{
+            margin-right: 5px;
+            cursor: pointer;
+            border: 1px solid;
+            padding: 3px;
+            border-color: rgb(235, 232, 232);;
+            
+            
+        }
+        li:hover{
+            background-color: rgb(92, 139, 200);
+            border: 1px solid;
+            padding: 3px;
+            
+        }
+      
+    }
+    
+}

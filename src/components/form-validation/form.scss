@@ -1,7 +1,4 @@
-.first-form-h2{
-    color: rgb(160, 167, 199);
-    background-color: rgb(38, 102, 142);    
-}
+
 .form-main-div{
     display: flex;
     justify-content: center;
@@ -17,6 +14,8 @@
         background-color: rgb(28, 77, 110);
         border-radius: 5px;
         padding-top: 30px;
+
+     
 
     }
     form{
@@ -40,4 +39,26 @@
     input::placeholder{
         color: rgb(200, 200, 208);
     }
+
+       
+    .input-error{
+        border: 2px solid;
+       border-color: rgb(161, 66, 66); 
+    }
+    .error-msg{
+        font-family:  Arial, sans-serif;
+        color: rgb(241, 66, 66);
+        font-size: x-small;
+        font-weight: 900;
+        
+    }
+    .form-button{
+        width: 60%;
+        cursor: pointer;
+        
+    }
+    .form-button:hover{
+        background-color: rgb(94, 160, 194);;
+    }
+   
 }
